@@ -5,5 +5,6 @@ int main(){
     std :: cin >> salario >> prestacao;
     if (prestacao < (salario/5))
         std :: cout << "Emprestimo aceito \n";
-
+    else
+        std :: cout << "Emprestimo negado\n";
 }
